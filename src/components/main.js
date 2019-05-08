@@ -10,7 +10,7 @@ import Projects from './projects';
 const Main = () => (<
     Switch >
     <
-        Route exact path="/"
+        Route exact path="/portfolio"
         component={
             LandingPage
         }
