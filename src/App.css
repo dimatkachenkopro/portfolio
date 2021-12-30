@@ -1,15 +1,29 @@
-
 .header-color {
-background: #bc4e9c;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 .landing-grid {
-  background: #bc4e9c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bc4e9c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f80759,
+    #bc4e9c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -21,10 +35,13 @@ background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, F
 .projects-grid {
   --auto-grid-min-size: 16rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
   grid-gap: 8rem;
 }
-.wrapper{
+.wrapper {
   max-width: 65rem;
   margin: 0 auto;
   padding: 0 1rem;
@@ -40,8 +57,8 @@ background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, F
 }
 
 .banner-text {
-  background-color:rgba(55, 1, 105, 0.568);
-  opacity: .8;
+  background-color: rgba(55, 1, 105, 0.568);
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -76,4 +93,23 @@ background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, F
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+}
+
+.card-menu {
+  color: white;
+}
+
+.card-title {
+  height: 176px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAquf9cOdR7mWsQweMb364ogMzlmBC8DWAV9hnnBlrfOOXJakz);
+}
+
+.card-body {
+  min-width: 450px;
+  margin: auto;
 }
